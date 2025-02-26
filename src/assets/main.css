@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+    background-color: #191a1c;
+    height: 300vh;
+}
+
+@theme {
+
+    --font-itim: Itim, "sans-serif";
+    --font-exo2: Exo2, "sans-serif";
+    --font-kaisei-decol: KaiseiDecol, "sans-serif";
+
+}
+
+@font-face {
+    font-family: 'Itim';
+    src: url('/fonts/Itim/Itim-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('/fonts/Exo_2/Exo2-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'KaiseiDecol';
+    src: url('/fonts/Kaisei_Decol/KaiseiDecol-Regular.ttf');
+}
