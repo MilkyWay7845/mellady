@@ -1,9 +1,9 @@
 <template>
     
     <div data-aos="fade-up" data-aos-duration="1000" class="flex flex-col w-full items-center py-30">
-      <div class="flex flex-col px-50 items-center gap-2">
+      <div class="flex flex-col px-10 lg:px-50 items-center gap-2">
         <p class="text-white font-exo2 text-2xl">{{ currentPage.title }}</p>
-        <p class="text-white font-exo2 text-lg"> 
+        <p class="text-white font-exo2 sm:text-lg"> 
           {{ currentPage.description }}
         </p>
       </div>
